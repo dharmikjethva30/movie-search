@@ -30,7 +30,7 @@ app.use(cors())
 app.use(morgan("combined"))
 
 app.get('/', (req, res) => {
-    res.status(200).send("Welcome to My blog Application")
+    res.status(200).send("Welcome to My movie search API !")
 })
 
 app.use('/user', user)
